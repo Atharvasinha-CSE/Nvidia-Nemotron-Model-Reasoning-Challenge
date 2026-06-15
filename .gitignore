@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face
+cache/
+.huggingface/
+transformers_cache/
+
+# Training outputs
+outputs/
+runs/
+logs/
+checkpoints/
+
+# Weights (keep only if you don't want them in Git)
+*.bin
+*.pt
+*.pth
+
+# Secrets
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
